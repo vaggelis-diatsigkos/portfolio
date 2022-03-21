@@ -30,22 +30,11 @@ const HeaderSection = () => {
   );
 };
 
-const HeaderSectionBackground = () => {
-  return (
-    <>
-      <div className="absolute top-10 -bottom-96 left-0 w-1/3 h-full bg-pink-300 rounded-3xl filter scale-105 blur-3xl opacity-40 animate-blob"></div>
-      <div className="absolute top-10 -bottom-96 left-1/3 w-1/3 h-full bg-yellow-300 rounded-3xl filter scale-105 blur-3xl opacity-40 animate-blob animation-delay-2000"></div>
-      <div className="absolute top-10 -bottom-96 left-2/3 w-1/3 h-full bg-green-300 rounded-3xl filter scale-105 blur-3xl opacity-40 animate-blob animation-delay-4000"></div>
-    </>
-  )
-};
 
 const HeaderSectionHero = () => {
   return (
     <div className="text-center lg:text-left">
-
-      <h1 className="text-6xl md:text-7xl lg:text-9xl font-extrabold text-white relative">
-        <HeaderSectionBackground />
+      <h1 className="text-6xl md:text-7xl lg:text-9xl font-extrabold text-white">
         <div>vaggelis</div>
         <div>diatsigkos</div>
       </h1>
