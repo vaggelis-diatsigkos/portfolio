@@ -6,7 +6,7 @@ const FooterSection = () => {
                     <i className="fad fa-heart text-pink-500 fa-10x animate-pulse"></i>
                 </div>
                 <div className="flex-grow">
-                    <div className="text-5xl lg:text-7xl text-center lg:text-left font-extrabold">Thank you for reaching the end!</div>
+                    <div className="text-5xl lg:text-7xl text-center lg:text-left font-extrabold">Thank you for reaching out!</div>
                     <p className="text-lg lg:text-xl text-center lg:text-left  mt-4">
                         You can find the source code {" "}
                         <a className="text-gray-400 hover:text-gray-500 transition-all ease-out duration-200 underline" target="_blank" rel="noreferrer" href="https://github.com/vaggelis-diatsigkos/portfolio">here</a>{" "}
