@@ -9,9 +9,9 @@ const FooterSection = () => {
                     <div className="text-5xl lg:text-7xl text-center lg:text-left font-extrabold">Thank you for reaching out!</div>
                     <p className="text-lg lg:text-xl text-center lg:text-left mt-4">
                         You can find the source code {" "}
-                        <a className="text-gray-500 hover:text-gray-600 transition-all ease-in-out duration-75 underline italic uppercase" target="_blank" rel="noreferrer" href="https://github.com/vaggelis-diatsigkos/portfolio">here</a>{" "}
+                        <a className="text-gray-500 hover:text-gray-600 transition-all ease-in-out duration-75 underline italic" target="_blank" rel="noreferrer" href="https://github.com/vaggelis-diatsigkos/portfolio">here</a>{" "}
                         and do not hesitate to contact me at{" "}
-                        <a className="text-gray-500 hover:text-gray-600 transition-all ease-in-out duration-75 underline italic uppercase" href="mailto:vaggelis.diatsigkos@outlook.com">vaggelis.diatsigkos@outlook.com</a>.
+                        <a className="text-gray-500 hover:text-gray-600 transition-all ease-in-out duration-75 underline italic" href="mailto:vaggelis.diatsigkos@outlook.com">vaggelis.diatsigkos@outlook.com</a>.
                     </p>
                 </div>
             </div>
