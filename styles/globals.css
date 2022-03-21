@@ -8,7 +8,7 @@ html {
   @apply h-full;
 }
 body {
-  @apply h-full bg-white text-black dark:bg-gray-900 dark:text-gray-50;
+  @apply h-full bg-white text-black dark:bg-gray-900 dark:text-gray-50 antialiased;
 }
 .swiper-pagination-bullet{
   @apply bg-gray-400;

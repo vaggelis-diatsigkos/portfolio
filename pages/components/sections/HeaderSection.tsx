@@ -6,8 +6,9 @@ import { ISkill } from "../../../core/models";
 
 const HeaderSection = () => {
   return (
-    <div className="py-8">
+    <div className="py-8 relative">
       <HeaderSectionHero />
+      
       <div className="mt-12">
         <div className="grid grid-cols-1 lg:grid-rows-6 lg:grid-flow-col gap-4 sm:gap-6">
           <div className="lg:row-span-2">
