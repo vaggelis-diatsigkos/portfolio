@@ -1,9 +1,9 @@
 const FooterSection = () => {
     return (
         <div className="py-12">
-            <div className="flex flex-col lg:flex-row items-stretch lg:items-start justify-between gap-12">
+            <div className="flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-12">
                 <div className="text-center">
-                    <i className="fad fa-heart text-pink-500 fa-10x animate-pulse"></i>
+                    <i className="fad fa-heart text-pink-400 fa-6x animate-pulse"></i>
                 </div>
                 <div className="flex-grow">
                     <div className="text-5xl lg:text-7xl text-center lg:text-left font-extrabold">Thank you for reaching out!</div>
