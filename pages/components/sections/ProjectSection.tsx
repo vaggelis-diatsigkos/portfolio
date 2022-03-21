@@ -32,7 +32,7 @@ const ProjectSection = () => {
 
 export const ProjectSectionHeroCard = () => {
   return (
-    <div className="bg-gradient-to-br from-purple-600 to-indigo-800 rounded-xl shadow relative w-full h-full transition-all ease-in-out duration-500 hover:-translate-x-4 hover:shadow-lg">
+    <div className="bg-gradient-to-br from-purple-600 to-indigo-800 rounded-xl shadow relative w-full h-full transition-all ease-in-out duration-200 hover:scale-105 hover:shadow-lg">
       <div
         className="w-full h-full p-6"
         style={{
@@ -57,7 +57,7 @@ export const ProjectSectionItemCard: React.FC<{ project: IProject }> = ({
   project,
 }) => {
   return (
-    <div className="rounded-xl shadow w-full h-full bg-gradient-to-br from-gray-700 to-gray-800 transition-all ease-in-out duration-200 hover:scale-105 hover:shadow-lg">
+    <a href={project.link} target="_blank" rel="noreferrer" className="block rounded-xl shadow w-full h-full bg-gradient-to-br from-gray-700 to-gray-800 transition-all ease-in-out duration-200 hover:scale-105 hover:shadow-lg">
       <div className="flex flex-col items-stretch justify-between h-full">
         <div
           className="p-6 h-full font-extrabold uppercase tracking-wide flex flex-col items-stretch justify-start"
@@ -84,7 +84,7 @@ export const ProjectSectionItemCard: React.FC<{ project: IProject }> = ({
             <span className="font-bold">{project.role}</span>
           </div>
           {project.for && (
-            <div>
+            <div className="text-right">
               <span className="font-extralight italic">working</span>
               <i className="fad fa-at fa-fw mx-1"></i>
               <span className="font-bold">{project.for}</span>
@@ -92,7 +92,7 @@ export const ProjectSectionItemCard: React.FC<{ project: IProject }> = ({
           )}
         </div>
       </div>
-    </div>
+    </a>
   );
 };
 

@@ -37,7 +37,7 @@ export const ProjectData: IProject[] = [
         name: "Neuro Integration Platform",
         for: "ThinkRIT",
         role: "Dir_Of_Engineering",
-        type: "Product_Suite",
+        type: "Product_Suite"
     },
     {
         company: "ACS Courier",
@@ -45,6 +45,7 @@ export const ProjectData: IProject[] = [
         for: "Indice",
         role: "Dev_Team_Leader",
         type: "Web_App",
+        link: 'https://www.acscourier.net/en/'
     },
     {
         company: "ChaniaBank",
@@ -52,6 +53,7 @@ export const ProjectData: IProject[] = [
         for: "Indice",
         role: "Dev_Team_Leader",
         type: "Web_Api",
+        link: "https://developer.chaniabank.gr/"
     },
     {
         company: "ChaniaBank",
@@ -59,6 +61,7 @@ export const ProjectData: IProject[] = [
         for: "Indice",
         role: "Dev_Team_Leader",
         type: "Web_App",
+        link: "https://www.chaniabank.gr/en/ebanking/"
     },
     {
         company: "Alpha Bank",
@@ -66,6 +69,7 @@ export const ProjectData: IProject[] = [
         for: "Indice",
         role: "Dev_Team_Leader",
         type: "Web_App",
+        link: "https://www.alpha.gr/en/business/myalpha/api-portal"
     },
     {
         company: "Incadea",
@@ -73,6 +77,7 @@ export const ProjectData: IProject[] = [
         for: undefined,
         role: "UX_Designer/Product_Architect",
         type: "Web_App",
+        link: "https://www.incadea.com/en/solutions-services/passenger-cars/vehicle-health-check/"
     },
     {
         company: "Incadea",
@@ -80,6 +85,7 @@ export const ProjectData: IProject[] = [
         for: "Incadea",
         role: "BI_Team_Leader",
         type: "Product_Suite",
+        link: "https://www.incadea.com/en/solutions-services/passenger-cars/business-intelligence/"
     },
     {
         company: "ParkAround",
@@ -87,6 +93,7 @@ export const ProjectData: IProject[] = [
         for: "Parkaround",
         role: "Dev_Team_Leader",
         type: "Web_App",
+        link: "https://www.parkaround.com/"
     },
     {
         company: "Personal",
@@ -94,6 +101,7 @@ export const ProjectData: IProject[] = [
         for: undefined,
         role: "Owner",
         type: "Windows_Universal_App",
+        link: "https://www.microsoft.com/en-US/p/film-closet/9wzdncrfhx5s"
     },
 ];
 

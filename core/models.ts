@@ -12,6 +12,7 @@ export interface IProject {
     for?: string;
     role: string;
     type: string;
+    link?: string;
 }
 
 export interface ITechnologyGroup {
