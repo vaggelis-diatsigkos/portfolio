@@ -1,4 +1,4 @@
-# Welcome to my personal <a href="https://portfolio-vaggelis-diatsigkos.vercel.app/" target="_blank">Portfolio</a>.
+# Welcome to my personal <a href="https://portfolio-vaggelis-diatsigkos.vercel.app/" target="_blank">portfolio</a>.
 
 ## Getting Started
 
