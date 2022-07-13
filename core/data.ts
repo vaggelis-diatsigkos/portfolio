@@ -223,6 +223,9 @@ export const TechnologyData: ITechnologyGroup[] = [
             },
             {
                 name: 'API Management'
+            },
+            {
+                name: 'SQL Data Sync'
             }
         ]
     },
@@ -234,6 +237,9 @@ export const TechnologyData: ITechnologyGroup[] = [
             },
             {
                 name: 'RabbitMQ'
+            },
+            {
+                name: 'Redis Message Broker'
             }
         ]
     },
@@ -245,6 +251,9 @@ export const TechnologyData: ITechnologyGroup[] = [
             },
             {
                 name: 'Elsa'
+            },
+            {
+                name: 'Temporal'
             }
         ]
     },
