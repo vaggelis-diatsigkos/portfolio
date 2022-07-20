@@ -250,7 +250,7 @@ export const TechnologyData: ITechnologyGroup[] = [
                 name: 'Azure Durable Functions'
             },
             {
-                name: 'Elsa'
+                name: 'ELSA'
             },
             {
                 name: 'Temporal'
@@ -268,6 +268,17 @@ export const TechnologyData: ITechnologyGroup[] = [
             },
             {
                 name: 'Express Gateway'
+            }
+        ]
+    },
+    {
+        category: 'Mobile Frameworks',
+        items: [
+            {
+                name: 'MAUI'
+            },
+            {
+                name: 'Ionic'
             }
         ]
     },
